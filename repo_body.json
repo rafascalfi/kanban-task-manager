@@ -1,0 +1,5 @@
+{
+  "name": "kanban-task-manager",
+  "description": "Gerenciador de tarefas Kanban com React, Express e SQLite",
+  "private": false
+}

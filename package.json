@@ -1,9 +1,14 @@
 {
-  "name": "kanban-monorepo",
+  "name": "kanban-task-manager",
   "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
     "build": "cd client && npm install && npm run build",
-    "install": "cd client && npm install && cd ../server && npm install"
+    "install-all": "npm install --workspaces && npm install"
   },
   "dependencies": {
     "express": "^4.21.2",
